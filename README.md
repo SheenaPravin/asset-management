@@ -1,5 +1,7 @@
 # Asset Management (modernized port)
 
+**Live demo dashboard: https://sheenapravin.github.io/asset-management/** (static demo build — data stored in browser localStorage; run locally for the full MongoDB backend)
+
 MERN asset tracker mimicking [bobcat4848/asset-management](https://github.com/bobcat4848/asset-management) — equipment CRUD, check-out tracking, JWT auth, dashboard stats.
 
 Original was React 17 (CRA) + Express + MongoDB native driver + Mongoose. This port modernizes to **React 18 + Vite + React Router 6** and a **single Mongoose data layer**, and fixes bugs (JWT secret mismatch, inconsistent routes).
